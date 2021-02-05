@@ -5,6 +5,7 @@ def load_library(path)
   # code goes here
   emoticons = {}
   value.each do |key, emoji|
+    key[emoji]
   end
 end
 
