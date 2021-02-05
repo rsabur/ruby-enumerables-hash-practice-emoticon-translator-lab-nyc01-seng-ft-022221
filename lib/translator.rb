@@ -10,7 +10,8 @@ def load_library(path)
     #binding.pry
     name.each do |name|
       name.to_sym
-    binding.pry
+      binding.pry
+    end
   end
   emoticons
 end
