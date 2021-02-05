@@ -9,6 +9,7 @@ def load_library(path)
     emoticons[name] = {}
     emoticons[name][:english] = ""
     emoticons[name][:japanese] = ""
+    binding.pry
   end
   emoticons
 end
