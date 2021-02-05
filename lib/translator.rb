@@ -6,7 +6,7 @@ def load_library(path)
   # code goes here
   emoticons = {}
   #binding.pry
-  YAML.load_file(path).has_a?(keys)
+  YAML.load_file(path).has?(keys) 
   emoticons
 end
 
