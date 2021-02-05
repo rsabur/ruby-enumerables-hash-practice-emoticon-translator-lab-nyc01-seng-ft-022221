@@ -8,7 +8,8 @@ def load_library(path)
   #binding.pry
   YAML.load_file(path).each do |name, emoji|
     #binding.pry
-    name.to_sym
+    name.each do |name|
+      name.to_sym
     binding.pry
   end
   emoticons
