@@ -5,8 +5,8 @@ require 'pry'
 def load_library(path)
   # code goes here
   empticons = {}
-  #binding.pry
-  emojis = file_load('emoticons.yml')
+  binding.pry
+
   empticons
 end
 
