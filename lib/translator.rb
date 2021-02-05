@@ -16,10 +16,10 @@ end
 
 def get_japanese_emoticon(path, emoji)
   # code goes here
-  get_english_meaning()
+
 end
 
 def get_english_meaning(path, emoji)
   # code goes here
-  get_english_meaning()
+  
 end
