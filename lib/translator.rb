@@ -23,6 +23,6 @@ end
 def get_english_meaning(path, emoji)
   # code goes here
   load_library(path).each do |name, emoji|
-    
+    binding.pry
   end
 end
