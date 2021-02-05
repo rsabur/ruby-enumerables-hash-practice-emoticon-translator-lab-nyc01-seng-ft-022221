@@ -2,6 +2,7 @@
 
 def load_library
   # code goes here
+  load_library(emoticons)
 end
 
 def get_japanese_emoticon
