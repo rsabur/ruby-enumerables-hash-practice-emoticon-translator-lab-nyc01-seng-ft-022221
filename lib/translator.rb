@@ -7,7 +7,8 @@ def load_library(path)
   emoticons = {}
   YAML.load_file(path).each do |name, emoji|
     emoticons[name] = {}
-    emoticons[name][:english]
+    emoticons[name][:english] == ""
+    emoticons[name][:japanese] == ""
   end
   emoticons
 end
