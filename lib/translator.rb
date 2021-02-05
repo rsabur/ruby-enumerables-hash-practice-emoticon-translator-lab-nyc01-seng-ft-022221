@@ -19,6 +19,8 @@ def get_japanese_emoticon(path, emoji)
   load_library(path).each do |name, emoji|
      if emoji[:english] == emoticons
        return name
+     else
+       return "Sorry, that emoticon was not found"
      end
     #binding.pry
   end
