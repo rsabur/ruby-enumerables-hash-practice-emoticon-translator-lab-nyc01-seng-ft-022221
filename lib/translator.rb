@@ -14,7 +14,7 @@ def load_library(path)
   emoticons
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(path, emoticons)
   # code goes here
   get_english_meaning(emoticons[name][:japanese])
 end
