@@ -4,9 +4,9 @@ require 'pry'
 
 def load_library(path)
   # code goes here
-  emoticons = {}
+  emoticons = {} |:key, value|
   #binding.pry
-  
+
 end
 
 def get_japanese_emoticon
