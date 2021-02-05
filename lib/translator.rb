@@ -2,7 +2,7 @@
 require 'yaml'
 require 'pry'
 
-def load_library(path)
+def load_library(path, key)
   # code goes here
   emoticons = {}
   binding.pry
