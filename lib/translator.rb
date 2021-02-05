@@ -10,6 +10,7 @@ def load_library(path)
   end
   name.each do |emoji|
     name[emoji] = []
+  end
   emoticons
 end
 
