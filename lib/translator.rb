@@ -19,7 +19,6 @@ def get_japanese_emoticon(path, emoticons)
   load_library(path).each do |name, emoji|
     #binding.pry
     end
- end
  return "Sorry, that emoticon was not found"
 end
 
