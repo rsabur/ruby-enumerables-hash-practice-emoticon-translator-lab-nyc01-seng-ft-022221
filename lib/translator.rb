@@ -6,8 +6,9 @@ def load_library(path)
   # code goes here
   emoticons = {}
   #binding.pry
-  YAML.load_file(path).each do |key, value|
+  YAML.load_file(path).each do |name, emoji|
     binding.pry
+    key =
   end
   emoticons
 end
