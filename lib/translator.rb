@@ -3,7 +3,7 @@ require 'yaml'
 
 def load_library
   # code goes here
-  File.open(emoticon.yml)
+  emoticon = File.open(emoticon.yml)
 
 end
 
