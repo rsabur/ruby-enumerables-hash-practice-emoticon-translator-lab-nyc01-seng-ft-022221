@@ -4,7 +4,7 @@ require 'pry'
 
 def load_library(path)
   # code goes here
-  empticons = {}  
+  empticons = {}
   #binding.pry
 empticons
 end
