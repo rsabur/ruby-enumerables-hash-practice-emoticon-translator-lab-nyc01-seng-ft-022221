@@ -14,7 +14,7 @@ def load_library(path)
   emoticons
 end
 
-def get_japanese_emoticon(path, emoji)
+def get_japanese_emoticon(path, emoticons)
   # code goes here
   load_library(path).each do |name, emoji|
      if emoji[:english] == emoticons
