@@ -5,9 +5,8 @@ require 'pry'
 def load_library(path)
   # code goes here
   emoticons = {}
-  binding.pry
-  path.each do |names|
-    names.each_with_object({}) do |english_emoticon, japanese_emoticon|
+  #binding.pry
+
     end
   end
 end
