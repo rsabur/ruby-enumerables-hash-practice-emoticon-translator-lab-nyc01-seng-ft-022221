@@ -6,7 +6,7 @@ def load_library(path)
   # code goes here
   emoticons = {}
   binding.pry
-  name.each do |key, emoji|
+  path.each do |key, emoji|
     key[emoji]
   end
 end
