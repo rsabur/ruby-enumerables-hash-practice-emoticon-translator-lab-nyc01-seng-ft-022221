@@ -4,7 +4,8 @@ require 'yaml'
 def load_library(path)
   # code goes here
   emoticons = {}
-  
+  value.each do |key, emoji|
+  end
 end
 
 def get_japanese_emoticon
