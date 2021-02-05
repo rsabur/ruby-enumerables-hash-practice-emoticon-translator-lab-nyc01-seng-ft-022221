@@ -4,9 +4,9 @@ require 'pry'
 
 def load_library(path)
   # code goes here
-  empticons = {}
+  emoticons = {}
   binding.pry
-  empticons
+  emoticons
 end
 
 def get_japanese_emoticon
