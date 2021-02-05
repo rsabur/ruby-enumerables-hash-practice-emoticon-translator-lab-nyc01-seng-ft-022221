@@ -26,5 +26,5 @@ def get_english_meaning(path, emoticons)
 
     binding.pry
   end
-  
+
 end
