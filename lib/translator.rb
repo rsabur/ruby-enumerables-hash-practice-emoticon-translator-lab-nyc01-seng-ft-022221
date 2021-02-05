@@ -16,9 +16,10 @@ end
 
 def get_japanese_emoticon
   # code goes here
+  get_english_meaning(emoticons[name][:japanese])
 end
 
 def get_english_meaning(path, emoticons)
   # code goes here
-  get_english_meaning(emoticons[name][:japanese])
+  get_english_meaning(emoticons[name][:english])
 end
