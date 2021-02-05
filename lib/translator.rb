@@ -17,13 +17,7 @@ end
 def get_japanese_emoticon(path, emoticons)
   # code goes here
   load_library(path).each do |name, emoji|
-     if emoji[:english] == emoticons
-       return name
-     else
-       "Sorry, that emoticon was not found"
-     end
-    #binding.pry
-  end
+
 end
 
 def get_english_meaning(path, emoticons)
@@ -31,10 +25,7 @@ def get_english_meaning(path, emoticons)
   load_library(path).each do |name, emoji|
      if emoji[:japanese] == emoticons
        return name
-     else
-       "Sorry, that emoticon was not found"
      end
     #binding.pry
   end
-
 end
