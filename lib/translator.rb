@@ -16,11 +16,11 @@ end
 
 def get_japanese_emoticon(path, emoji)
   # code goes here
-  load_library(path)
+  load_library(path)[:japanese]
 
 end
 
 def get_english_meaning(path, emoji)
   # code goes here
-  load_library(path)
+  load_library(path)[:english]
 end
