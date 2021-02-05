@@ -7,8 +7,8 @@ def load_library(path)
   emoticons = {}
   YAML.load_file(path).each do |name, emoji|
     emoticons[name] = {}
-    emoticons[name][:english] = "emoticons[name][value]"
-    emoticons[name][:japanese] = "emoticons[name][value]"
+    emoticons[name][:english] = "#{name[value]}"
+    emoticons[name][:japanese] = "#{name[value]}"
   end
   emoticons
 end
