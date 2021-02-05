@@ -20,7 +20,7 @@ def get_japanese_emoticon(path, emoji)
 
 end
 
-def get_english_meaning(path, emoji)
+def get_english_meaning(path, emoticons)
   # code goes here
   load_library(path).each do |name, emoji|
     emoji[:english]
