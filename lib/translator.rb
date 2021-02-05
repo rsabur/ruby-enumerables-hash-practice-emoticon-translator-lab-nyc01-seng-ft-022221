@@ -5,8 +5,7 @@ def load_library(path)
   # code goes here
   emoticons = {}
   path.each do |key|
-    
-
+  end
 end
 
 def get_japanese_emoticon
