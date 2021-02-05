@@ -1,9 +1,11 @@
 # require modules here
 require 'yaml'
+require 'pry'
 
 def load_library(path)
   # code goes here
   emoticons = {}
+  binding.pry
   name.each do |key, emoji|
     key[emoji]
   end
