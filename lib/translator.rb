@@ -8,6 +8,8 @@ def load_library(path)
   YAML.load_file(path).each do |name, emoji|
     emoticons[name] = {}
   end
+  name.each do |emoji|
+    name[emoji] = []
   emoticons
 end
 
