@@ -26,4 +26,5 @@ def get_english_meaning(path, emoji)
     emoji[:english]
     #binding.pry
   end
+  emoji
 end
