@@ -7,7 +7,7 @@ def load_library(path)
   emoticons = {}
   binding.pry
   path.each do |key, names|
-    puts key[names]
+    emoticons << path[key][names]
   end
 end
 
