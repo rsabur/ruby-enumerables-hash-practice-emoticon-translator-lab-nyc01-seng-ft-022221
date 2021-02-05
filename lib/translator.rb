@@ -16,7 +16,7 @@ end
 
 def get_japanese_emoticon(path, emoji)
   # code goes here
-  load_library(path)[:japanese]
+  load_library(path)[name]
 
 end
 
