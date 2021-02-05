@@ -4,7 +4,7 @@ require 'yaml'
 def load_library(path)
   # code goes here
   emoticons = {}
-  value.each do |key, emoji1, emoji2|
+  value.each do |key, emoji|
     key[emoji]
   end
 end
